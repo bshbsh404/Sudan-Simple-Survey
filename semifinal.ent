@@ -1,0 +1,32 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=V_0_6
+Name=V_0_6
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+AutoPartialSaveMinutes=1
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\semifinal.ent.apc
+[Message]
+File=.\semifinal.ent.mgf
+[Help]
+File=.\semifinal.ent.qsf
+[Forms]
+File=.\semifinal.fmf
+[Dictionary Types]
+Dict-Type=.\semifinal.dcf,Input,.\semifinal.fmf
+[Sync]
+Server=Dropbox
+Direction=Put
+AppDownloadPath=/CSPro/DataSync/semifinal/dict

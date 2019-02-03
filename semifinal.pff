@@ -1,0 +1,19 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\semifinal.ent
+InputData=.\kh.csdb|CSPRODB
+Paradata=.\semifinal.cslog
+
+
+[UserFiles]
+FILE_GPS=.\GZ_GPS.txt
+TEMPID=.\TEMPID.txt
+
+[Parameters]
+

@@ -1,0 +1,2732 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=UNI
+Name=UNI_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Languages]
+EN=English
+AR=Arabic
+
+[Level]
+Label=UNI questionnaire
+Name=UNI_QUEST
+
+[IdItems]
+
+[Item]
+Label=Date|التاريخ
+Name=DATE
+Start=2
+Len=8
+
+[Item]
+Label=State|الولاية
+Name=STATE
+Start=10
+Len=2
+
+[ValueSet]
+Label=State|الولاية
+Name=STATE_VS1
+Value=1;Northren State - الولاية الشمالية
+Value=2;River Nile State - ولاية نهر النيل
+Value=3;Khartoum State - ولاية الخرطوم
+Value=4;Al-Gazeera State - ولاية الجزيرة
+Value=5;Red Sea State - ولاية البحر الأحمر
+Value=6;Kassala State - ولاية كسلا
+Value=7;Al-Gadarif State - ولاية القضارف
+Value=8;Sinar State - ولاية سنار
+Value=9;Blue Nile State - ولاية النيل الأزرق
+Value=10;White Nile State - ولاية النيل الأبيض
+Value=11;North Kourdfan State - ولاية شمال كردفان
+Value=12;South Kourdfan State - ولاية جنوب كردفان
+Value=13;West Kourdfan State - ولاية غرب كردفان
+Value=14;North Darfur State - ولاية شمال دارفور
+Value=15;South Darfur State - ولاية جنوب دارفور
+Value=16;Centeral Darfur State - ولاية وسط دارفور
+Value=17;East Darfur State - ولاية شرق دارفور
+Value=18;West Darfur State - ولاية غرب دارفور
+
+[Item]
+Label=Locality|المحلية
+Name=LOCALITY
+Start=12
+Len=3
+
+[ValueSet]
+Label=Northern Localities
+Name=NORTHERN_LOCALITIES
+Value=1;دنقلا
+Value=2;القولد
+Value=3;مروي
+Value=4;الدبة|الدبة
+Value=5;حلفا
+Value=6;دلقو
+Value=7;البرقيق
+
+[ValueSet]
+Label=River Nile Localities
+Name=RN_LOCALITIES
+Value=8;المتمة
+Value=9;شندي
+Value=10;أبوحمد
+Value=11;بربر
+Value=12;الدامر
+Value=13;عطبرة
+Value=14;البحيرة
+
+[ValueSet]
+Label=Khartoum Localities
+Name=KH_LOCALITIES
+Value=15;الخرطوم
+Value=16;بحري
+Value=17;أم درمان
+Value=18;أمبدة
+Value=19;جبل أولياء
+Value=20;شرق النيل
+Value=21;كرري
+
+[ValueSet]
+Label=GZ Loc - محليات الجزيرة
+Name=GZ_LOCALITIES
+Value=22;مدني
+Value=23;جنوب الجزيرة
+Value=24;الحصاحيصا
+Value=25;الكاملين
+Value=26;شرق الجزيرة
+Value=27;أم القرى
+Value=28;المناقل
+Value=29;القرشي
+
+[ValueSet]
+Label=RS Loc - محليات البحر الأحمر
+Name=RS_LOCALITIES
+Value=30;بورتسودان
+Value=31;سواكن
+Value=32;القنب و الأوليب
+Value=33;سنكات
+Value=34;هيا
+Value=35;دورديب
+Value=36;طوكر
+Value=37;عقيق
+Value=38;جبيت
+Value=39;حلايب
+
+[ValueSet]
+Label=Kassala Loc - محليات كسلا
+Name=KASSALA_LOCALITIES
+Value=40;مدينة كسلا
+Value=41;ريفي كسلا
+Value=42;غرب كسلا
+Value=43;ريفي حلفا
+Value=44;نهر عطبرة
+Value=45;ريفي القربة
+Value=46;ريفي ود الحليو
+Value=47;ريفي أروما
+Value=48;شمال الدلتا
+Value=49;همشكوريب
+Value=50;تلكوك
+
+[ValueSet]
+Label=Al-Gadarif  Loc - محليات القضارف
+Name=GADARIF_LOCALITIES
+Value=51;القضارف
+Value=52;وسط القضارف
+Value=53;البطانة
+Value=54;الفشقة
+Value=55;الرهد
+Value=56;قلع النحل
+Value=57;الفاو
+Value=58;القريشة
+Value=59;المفازة
+Value=60;باسندة
+Value=61;القلابات الغربية
+Value=62;القلابات الغربية
+
+[ValueSet]
+Label=Sinar Loc - محليات سنار
+Name=SINAR_LOCALITIES
+Value=63;سنار
+Value=64;سنار شرق
+Value=65;سنجة
+Value=66;أبو حجار
+Value=67;الدالي و المزموم
+Value=68;السوكي
+Value=69;الدندر
+
+[ValueSet]
+Label=BN Loc - محليات النيل الأزرق
+Name=BN_LOCALITIES
+Value=70;الدمازين
+Value=71;التضامن
+Value=72;الروصيروص
+Value=73;باو
+Value=74;قيسان
+Value=75;الكرمك
+Value=76;ود الماحي
+
+[ValueSet]
+Label=WN Loc - محليات النيل الأبيض
+Name=WN_LOCALITIES
+Value=77;كوستي
+Value=78;قلي
+Value=79;تندلتي
+Value=80;السلام
+Value=81;ربك
+Value=82;الجبلين
+Value=83;الدويم
+Value=84;أم رمتة
+Value=85;القطينة
+
+[ValueSet]
+Label=NK Loc - محليات شمال كردفان
+Name=NK_LOCALITIES
+Value=86;شيكان
+Value=87;أم روابا
+Value=88;أم دم
+Value=89;الرهد
+Value=90;بارا
+Value=91;غرب بارا
+Value=92;سودري
+Value=93;جبرة
+
+[ValueSet]
+Label=SK Loc - جنوب كردفان
+Name=SK_LOCALITIES
+Value=94;كادوقلي
+Value=95;الريف الشرقي
+Value=96;الدلنج
+Value=97;القوز
+Value=98;هبيلا
+Value=99;العباسية
+Value=100;الرشاد
+Value=101;أبوجبيهة
+Value=102;التضامن
+Value=103;تلودي
+Value=104;قدير
+Value=105;الليري
+Value=106;أبوكرشولا
+Value=107;دولامي
+
+[ValueSet]
+Label=WK Loc - محليات غرب كردفان
+Name=WK_LOCALITIES
+Value=108;أبو زبد
+Value=109;الخوي
+Value=110;غبيش
+Value=111;النهود
+Value=112;الأضية
+Value=113;ودبندة
+Value=114;لقاوة
+Value=115;السنوط
+Value=116;كيلك
+Value=117;السلام
+Value=118;بابنوسة
+Value=119;أبيي
+Value=120;الدبب
+Value=121;الميرم
+
+[ValueSet]
+Label=ND Loc - محليات شمال دارفور
+Name=ND_LOCALITIES
+Value=125;الفاشر
+Value=126;طويلة
+Value=127;مليط
+Value=128;أم كدادة
+Value=129;كبكابية
+Value=130;كتم
+Value=131;المالحة
+Value=132;سرف عمرة
+Value=133;السريف
+Value=134;الواحة
+Value=135;دار السلام
+Value=136;كلامندو
+Value=137;الطويشة
+Value=138;أم برو
+Value=139;اللعيت
+Value=140;الكومة
+Value=141;الطينة
+Value=142;كرنوي
+
+[ValueSet]
+Label=SD Loc - محليات جنوب دارفور
+Name=SD_LOCALITIES
+Value=143;نيالا
+Value=144;شمال نيالا
+Value=145;السلام
+Value=146;الوحدة
+Value=147;مرشنج
+Value=148;بليل
+Value=149;نتيقة
+Value=150;شمال الجبل
+Value=151;كاس
+Value=152;شطاية
+Value=153;برام
+Value=154;قريضة
+Value=155;السنطة
+Value=156;الردوم
+Value=157;تلس
+Value=158;دمسو
+Value=159;عد الفرسان
+Value=160;كبم
+Value=161;كتيلا
+Value=162;الرهيد
+Value=163;دافوق
+
+[ValueSet]
+Label=CD Loc - محليات وسط دارفور
+Name=CD_LOCALITIES
+Value=164;زالنجي
+Value=165;واد صالح
+Value=166;مكجر
+Value=167;قولو
+Value=168;روكورو
+Value=169;بندسي
+Value=170;نرتتي
+Value=171;أزوم
+Value=172;أم دخن
+
+[ValueSet]
+Label=ED Loc - محليات شرق دارفور
+Name=ED_LOCALITIES
+Value=173;أبوجابرة
+Value=174;أبوكرنكا
+Value=175;بحر العرب
+Value=176;عديلة
+Value=177;الضعين
+Value=178;عسلاية
+Value=179;الفردوس
+Value=180;شعرية
+Value=181;يس
+
+[ValueSet]
+Label=WD Loc - محليات غرب دارفور
+Name=WD_LOCALITIES
+Value=182;الجنينة
+Value=183;هبيلا
+Value=184;كلبس
+Value=185;بيضة
+Value=186;فور برنقا
+Value=187;كرينك
+Value=188;سربا
+Value=189;جبل مون
+
+[Item]
+Label=Sample ID|رقم العينة
+Name=SPID
+Start=15
+Len=10
+
+[Item]
+Label=Household ID|رقم الأسرة
+Name=HHID
+Start=25
+Len=5
+
+[Item]
+Label=Village Name|اسم القرية
+Name=V_NAME
+Start=30
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Sample Type|نوع العينة
+Name=SPT
+Start=60
+Len=1
+
+[Item]
+Label=Population|عدد السكان
+Name=POP
+Start=61
+Len=6
+
+[Item]
+Label=Team ID|رقم الفريق
+Name=T_ID
+Start=67
+Len=3
+
+[Record]
+Label=Demography
+Name=DEMOGRAPHY
+RecordTypeValue='2'
+RecordLen=190
+
+[Item]
+Label=Interviewer|الباحث
+Name=INTERVIEWER
+Start=70
+Len=24
+DataType=Alpha
+
+[Item]
+Label=Interviewer Tel|رقم هاتف الباحث
+Name=INTERVIEWER_TEL
+Start=94
+Len=10
+
+[ValueSet]
+Label=Interviewer Tel
+Name=INTERVIEWER_TEL_VS1
+Value=100000000:199999999
+Value=900000000:999999999
+
+[Item]
+Label=Sub Village|القرية البديلة
+Name=S_V_NAME
+Start=104
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Latitude|خطوط العرض
+Name=LATITUDE
+Start=134
+Len=15
+Decimal=9
+
+[Item]
+Label=longitude|خطوط الطول
+Name=LONGITUDE
+Start=149
+Len=15
+Decimal=9
+
+[Item]
+Label=Distance|المسافة
+Name=DISTANCE
+Start=164
+Len=8
+
+[Item]
+Label=Consent|المشاركة في المسح
+Name=D_CON
+Start=172
+Len=1
+
+[ValueSet]
+Label=Consent|المشاركة في المسح
+Name=D_CON_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Household Phone|رقم هاتف الأسرة
+Name=TEL
+Start=173
+Len=10
+
+[ValueSet]
+Label=Household Phone|رقم هاتف الأسرة
+Name=TEL_VS1
+Value=100000000:199999999
+Value=900000000:999999999
+Value=998
+
+[Item]
+Label=Mothers Count|عدد الأمهات
+Name=D8
+Start=183
+Len=1
+
+[Item]
+Label=Children 0-59 Months|الأطفال 0-59 شهر
+Name=D9
+Start=184
+Len=1
+
+[Item]
+Label=Children 0-17 Years|الأطفال 0-17 سنة
+Name=D10
+Start=185
+Len=2
+
+[Item]
+Label=Children 1-14 Years|الأطفال 1-14 سنة
+Name=D11
+Start=187
+Len=1
+
+[Item]
+Label=Girls 0-14 Years|الفتيات 0-14 سنة
+Name=D12
+Start=188
+Len=1
+
+[Item]
+Label=Women 15-49 Years|النساء 15-49 سنة
+Name=D13
+Start=189
+Len=1
+
+[Item]
+Label=Women 15-19 Years|النساء 15-19 سنة
+Name=D14
+Start=190
+Len=1
+
+[Record]
+Label=Household Personals (Demography)
+Name=DEMO_PERSON
+RecordTypeValue='3'
+MaxRecords=25
+RecordLen=155
+
+[Item]
+Label=Number|الرقم
+Name=D_ID
+Start=70
+Len=2
+
+[Item]
+Label=Name|الاسم
+Name=D1
+Start=72
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Sex|النوع
+Name=D2
+Start=102
+Len=1
+
+[ValueSet]
+Label=Sex|النوع
+Name=D2_VS1
+Value=1;Male|ذكر
+Value=2;Female|أنثى
+
+[Item]
+Label=Age|العمر
+Name=D3
+Start=103
+Len=3
+
+[Item]
+Label=Birth Certificate|شهادة الميلاد
+Name=BC
+Start=106
+Len=1
+
+[ValueSet]
+Label=شهادة الميلاد|شهادة الميلاد
+Name=BC_VS1
+Value=0;Yes seen|نعم رأيتها
+Value=1;Yes not seen|نعم لم أرها
+Value=2;No|لا
+
+[Item]
+Label=Birth Regestrition|إخبارية
+Name=BR
+Start=107
+Len=1
+
+[ValueSet]
+Label=إخبارية|إخبارية
+Name=BR_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Under 5 Age|الاطفال أقل من 5 سنين
+Name=D3_UNDER5
+Start=108
+Len=2
+
+[ValueSet]
+Label=Under 5 Age|الاطفال أقل من 5 سنين
+Name=D3_UNDER5_VS1
+Value=0:59
+
+[Item]
+Label=Female Type|أم
+Name=D4
+Start=110
+Len=2
+DataType=Alpha
+
+[ValueSet]
+Label=Female Type|أم
+Name=D4_VS1
+Value='A ';Mother for a child (0 - 59 months)|أم/راعية لأطفال أقل من 5 سنوات
+Value='B ';لا|أم/راعية لأفراد 5 - 14 سنة
+
+[Item]
+Label=Was in School|كان في المدرسة
+Name=D5
+Start=112
+Len=1
+
+[ValueSet]
+Label=Was in School|كان في المدرسة
+Name=D5_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=In School|في المدرسة
+Name=D6_SCHOOL
+Start=113
+Len=1
+
+[ValueSet]
+Label=In School|في المدرسة
+Name=D6_SCHOOL_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=في الروضة|في الروضة
+Name=D6_PRE
+Start=114
+Len=1
+
+[ValueSet]
+Label=في الروضة|في الروضة
+Name=D6_PRE_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Why not in school|لماذا ليس في المدرسة
+Name=D7
+Start=115
+Len=1
+
+[ValueSet]
+Label=Why not in school|لماذا ليس في المدرسة
+Name=D7_VS1
+Value=0;Mixed Education|التعليم المختلط
+Value=1;No Schools|لا يوجد مدارس
+Value=2;No toliets or water in school|عدم وجد مياه أو مراحيض في المدرسة
+Value=3;Illness or Disability|المرض أو الإعاقة
+Value=4;The School is far|بعد المدرسة
+Value=5;Work|العمل
+Value=6;Early marriage|الزواج المبكر
+Value=7;School fees|مصاريف المدرسة
+Value=8;Displacement|التنقل
+Value=9;Other|اخرى
+
+[Item]
+Label=Other|اخرى
+Name=D7_OTHER
+Start=116
+Len=40
+DataType=Alpha
+
+[Record]
+Label=Household Roster
+Name=HOUSEHOLD
+RecordTypeValue='4'
+RecordLen=169
+
+[Item]
+Label=Water Source|مصادر المياه
+Name=WS1
+Start=70
+Len=2
+
+[ValueSet]
+Label=Water Source|مصادر المياه
+Name=WS1_VS1
+Value=1;Public pipe network in house|شبكة المياه العامة في المنزل
+Value=2;Public pipe network in yard|آبار محفورة بماكينة طرمبات غاطسة
+Value=3;Public Water Pipe|مضخات يدوية
+Value=4;Protected Ground water|المياه السطحية
+Value=5;A well protected/covered well|آبار سطحية
+Value=6;Filtered Surface water|الخزانات
+Value=7;Water transfarred by car from 0-4|اخرى
+
+[Item]
+Label=Other|اخرى
+Name=WS1_OTHER
+Start=72
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Water Transfer means|وسائل نقل المياه
+Name=WS2
+Start=112
+Len=1
+
+[ValueSet]
+Label=Water Transfer means|وسائل نقل المياه
+Name=WS2_VS1
+Value=1;Car|عربة
+Value=2;On horse or donkeys|كارو أو حمار أو قربة
+Value=3;On foot|بالأرجل
+
+[Item]
+Label=Average time to get Water|متوسط الزمن المتطلب للحصول على المياه
+Name=WS3
+Start=113
+Len=3
+
+[Item]
+Label=Toliet type|نوع المرحاض
+Name=WS4
+Start=116
+Len=2
+
+[ValueSet]
+Label=Toliet type|نوع المرحاض
+Name=WS4_VS1
+Value=0;Drain to a public sewer|مصرف بالمجاري
+Value=1;Drain to a septic tank|مصرف بسابتيك تانك
+Value=2;Drain to a hole|مصرف بحفرة
+Value=3;Drain to another place|مصرف بمكان آخر
+Value=4;Drain to unknown place|مصرف إلى مكان غير معلوم
+Value=5;Improved latrine with cement cover and Ventilation|محسن مع تهوية و غطاء أسمنت
+Value=6;Latrine with cover|بلدي مع غطاء
+Value=7;Brewing Toliet|مرحاض تخمير
+Value=8;Latrine with no cover|تقليد بدون غطاء
+Value=9;Bucket|جردل
+Value=10;Other|آخرى
+Value=11;None (open defication)|غيرموجود (العراء)
+
+[Item]
+Label=Other|أخرى
+Name=WS4_OTHER
+Start=118
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Numbers of houses uses this same toliet|عدد المنازل التي تستعمل نفس المرحاض
+Name=WS5
+Start=158
+Len=2
+
+[Item]
+Label=Visit the handwashing place|افحص مكان غسيل الأيادي
+Name=WS6
+Start=160
+Len=1
+
+[ValueSet]
+Label=Visit the handwashing place|افحص مكان غسيل الأيادي
+Name=WS6_VS1
+Value=0;Viewed|تم النظر فيه
+Value=1;No Hand Washing Place in the House or the Yard|لا يوجد مكان لغسل الأيادي في المنزل أو الميدان
+Value=2;Did not get permision|لم تتحصل على الأذن
+
+[Item]
+Label=Water Sensation|توفر المياه
+Name=WS7
+Start=161
+Len=1
+
+[ValueSet]
+Label=Water Sensation|توفر المياه
+Name=WS7_VS1
+Value=0;Available|متوفرة
+Value=1;Not Available|غير متوفرة
+
+[Item]
+Label=Enviromental Sensation|توفر المتطلبات البيئية
+Name=WS8
+Start=162
+Len=1
+
+[ValueSet]
+Label=Enviromental Sensation|توفر المتطلبات البيئية
+Name=WS8_VS1
+Value=0;Soap is available|الصابون متوفر
+Value=1;Ash exit|رماد
+Value=2;No Soap or Ashes|لا صابون أو رماد
+
+[Item]
+Label=Enough food|استراتيجية التكيف
+Name=FS_CS
+Start=163
+Len=1
+
+[ValueSet]
+Label=Enough food|استراتيجية التكيف
+Name=FS_CS_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Rely on less preferred or less expensive food|الاعتماد على طعام أقل تفضيلا أو أقل سعرا
+Name=FS_CS1
+Start=164
+Len=1
+
+[ValueSet]
+Label=Rely on less preferred or less expensive food|الاعتماد على طعام أقل تفضيلا أو أقل سعرا
+Name=FS_CS1_VS1
+Value=0:7
+
+[Item]
+Label=Burrow food or burrow money for food|استلاف طعام أو استلاف مال لشراء طعام
+Name=FS_CS2
+Start=165
+Len=1
+
+[ValueSet]
+Label=Burrow food or burrow money for food|استلاف طعام أو استلاف مال لشراء طعام
+Name=FS_CS2_VS1
+Value=0:7
+
+[Item]
+Label=Rely for food from relatives or friends|الاعتماد على الأقارب أو الأصدقاء
+Name=FS_CS3
+Start=166
+Len=1
+
+[ValueSet]
+Label=Rely for food from relatives or friends|الاعتماد على الأقارب أو الأصدقاء
+Name=FS_CS3_VS1
+Value=0:7
+
+[Item]
+Label=Limit food portion|التقليل من كميات الطعام
+Name=FS_CS4
+Start=167
+Len=1
+
+[ValueSet]
+Label=Limit food portion|التقليل من كميات الطعام
+Name=FS_CS4_VS1
+Value=0:7
+
+[Item]
+Label=Restrict consumption for adults in order for small children to eat|الحد من كمية الطعام للبالغين ليأكل الأطفال
+Name=FS_CS5
+Start=168
+Len=1
+
+[ValueSet]
+Label=Restrict consumption for adults in order for small children to eat|الحد من كمية الطعام للبالغين ليأكل الأطفال
+Name=FS_CS5_VS1
+Value=0:7
+
+[Item]
+Label=Reduce number of meals|تقليل عدد الوجبات
+Name=FS_CS6
+Start=169
+Len=1
+
+[ValueSet]
+Label=Reduce number of meals|تقليل عدد الوجبات
+Name=FS_CS6_VS1
+Value=0:7
+
+[Record]
+Label=PC Roster
+Name=PC
+RecordTypeValue='5'
+RecordLen=733
+
+[Item]
+Label=Mother|اسم الأم
+Name=PC_N
+Start=70
+Len=30
+DataType=Alpha
+
+[ValueSet]
+Label=Mother|اسم الأم
+Name=PC_N_VS1
+Value='1                             ';Yes|نعم
+Value='2                             ';No|لا
+
+[Item]
+Label=Handwashing|غسل الأيادي
+Name=PC_WS
+Start=100
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Handwashing|غسل الأيادي
+Name=PC_WS_VS1
+Value='A     ';After Defecation|بعد قضاء الحاجة
+Value='B     ';After Cleaning Child|بعد نظافة الطفل
+Value='C     ';Before Eating|قبل الأكل
+Value='D     ';Before Feeding Child|قبل إطعام الطفل
+Value='E     ';Before Cooking|قبل الطبخ
+Value='F     ';Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=PC_WS_OTHER
+Start=106
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Mother Age|عمر الأم
+Name=HN1
+Start=146
+Len=3
+
+[ValueSet]
+Label=Mother Age|عمر الأم
+Name=HN1_VS1
+Value=15:60
+
+[Item]
+Label=Pregnant or Lactating|حامل أم مرضعة
+Name=HN2
+Start=149
+Len=1
+
+[ValueSet]
+Label=Pregnant or Lactating|حامل أم مرضعة
+Name=HN2_VS1
+Value=1;Pregnant|حامل
+Value=2;Lactating|مرضع
+Value=3;Both|كلاهما
+Value=4;None|لا حامل أو مرضع
+
+[Item]
+Label=مواك الأم|مواك الأم
+Name=HN3
+Start=150
+Len=3
+
+[ValueSet]
+Label=مواك الأم|مواك الأم
+Name=HN3_VS1
+Value=160:480
+Value=998;رفض|رفض
+Value=0;لا يوجد عينة|لا يوجد عينة
+Value=997;مفقود|مفقود
+
+[Item]
+Label=Resons to Visit HF|أسباب زيارة المؤسسة الصحية
+Name=H_HB
+Start=153
+Len=9
+DataType=Alpha
+
+[ValueSet]
+Label=Resons to Visit HF|أسباب زيارة المؤسسة الصحية
+Name=H_HB_VS1
+Value='A        ';Refuse food / drink / breast|رفض الطعام / الشراب / الرضاعة
+Value='B        ';Convulsions|تشنجات
+Value='C        ';Vomitting everything|تقيء
+Value='D        ';Bloody diarrhoea|الإسهال الدموي
+Value='E        ';Fever|حمى
+Value='F        ';Drowsiness / Unconsciousness|نعاس / فقدان وعي
+Value='G        ';Become sicker|ازدياد المرض
+Value='H        ';Fast difficult breathing|تنفس صعب و سريع
+Value='I        ';Don't Know|لا أعرف
+Value='J        ';Other|آخرى
+
+[Item]
+Label=Other|أخرى
+Name=H_HB_OTHER
+Start=162
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Time needed to reach the health facility|الزمن المتطلب للوصول إلى المؤسسة
+Name=H_HS1A
+Start=202
+Len=3
+
+[Item]
+Label=Health Workers|عمال صحة
+Name=H_HS1B
+Start=205
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Health Workers|عمال صحة
+Name=H_HS1B_VS1
+Value='A   ';CHW|مساعد طبي
+Value='B   ';Community Mid-Wife|معاون صحي
+Value='C   ';Village Mid-Wife|قابلة قرية
+Value='D   ';No Medical Staff|لا يوجد كوادر
+Value='E   ';Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=H_HS1B_OTHER
+Start=209
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Growth Monitoring Program (GMP)|برنامج متابعة النمو
+Name=H_HS2
+Start=249
+Len=1
+
+[ValueSet]
+Label=Growth Monitoring Program (GMP)|برنامج متابعة النمو
+Name=H_HS2_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Malnutrition treatmrent services for children and mothers|خدمة علاج سوء التغذية للأطفال و الأمهات
+Name=H_HS4
+Start=250
+Len=1
+
+[ValueSet]
+Label=Malnutrition treatmrent services for children and mothers|خدمة علاج سوء التغذية للأطفال و الأمهات
+Name=H_HS4_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Child HN Info Recived|معلومات عن صحة و تغذية الأطفال
+Name=H_HP1
+Start=251
+Len=1
+
+[ValueSet]
+Label=Child HN Info Recived|معلومات عن صحة و تغذية الأطفال
+Name=H_HP1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Preferrable health messeges channels|قنوات الرسائل الصحية المفضلة
+Name=H_HP2
+Start=252
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=Preferrable health messeges channels|قنوات الرسائل الصحية المفضلة
+Name=H_HP2_VS1
+Value='A       ';Social Media |برامج التواصل الاجتماعي
+Value='B       ';SMS/Phone|رسائل قصيرة بالهاتف
+Value='C       ';Internet|الانترنت
+Value='D       ';Outreach Volunteers|المتطوعين
+Value='E       ';Posters|بوسترات
+Value='F       ';Radio|راديو
+Value='G       ';TV|تلفيزيون
+Value='H       ';Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=H_HP2_OTHER
+Start=260
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Most Preferrable TV Channel|قناة التلفاز الأكثر تفضيلا
+Name=H_HP2A_TV
+Start=300
+Len=1
+
+[ValueSet]
+Label=Most Preferrable TV Channel|قناة التلفاز الأكثر تفضيلا
+Name=H_HP2A_TV_VS1
+Value=1;التلفزيون القومي|التلفزيون القومي
+Value=2;تلفزيون الولاية|تلفزيون الولاية
+Value=3;النيل الازرق|النيل الازرق
+Value=4;سودانية 24|سودانية 24
+Value=5;قناء الشروق|قناء الشروق
+Value=6;ام درمان|ام درمان
+Value=7;اخرى|اخرى
+
+[Item]
+Label=اخرى
+Name=H_HP2A_TV_OTHER
+Start=301
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Most Preferrable Radio Channel|قناة الراديو الأكثر تفضيلا
+Name=H_HP2A_RD
+Start=341
+Len=1
+
+[ValueSet]
+Label=Most Preferrable Radio Channel|قناة الراديو الأكثر تفضيلا
+Name=H_HP2A_RD_VS1
+Value=1;الاذاعة القومية|الاذاعة القومية
+Value=2;اذاعة الولايةة|اذاعة الولاية
+Value=3;البيت السوداني|البيت السوداني
+Value=4;راديو المجتمع|راديو المجتمع
+Value=5;راديو دارفور|راديو دارفور
+Value=6;اخرى|اخرى
+
+[Item]
+Label=اخرى|اخرى
+Name=H_HP2A_RD_OTHER
+Start=342
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Most Preferrable Programs|البرامج الأكثر تفضيلا
+Name=H_HP2B
+Start=382
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Most Preferrable Programs|البرامج الأكثر تفضيلا
+Name=H_HP2B_VS1
+Value='A     ';News|الأخبار
+Value='B     ';Serials|مسلسلات
+Value='C     ';Talk Show|برامج حوارية
+Value='D     ';Children Programms|برامج الأطفال
+Value='E     ';Documentaries|الوثائقيات
+Value='F     ';Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=H_HP2B_OTHER
+Start=388
+Len=40
+DataType=Alpha
+
+[Item]
+Label=The most Preferrable time|الوقت الأكثر تفضيلا
+Name=H_HP2C
+Start=428
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=The most Preferrable time|الوقت الأكثر تفضيلا
+Name=H_HP2C_VS1
+Value='A   ';Morning|صباح
+Value='B   ';Afternoon|الظهيرة
+Value='C   ';Evening|المساء
+Value='D   ';Night|الليل
+
+[Item]
+Label=ANC visits count|عدد مرات زيارة رعاية ما قبل الولادة
+Name=H_RH1
+Start=432
+Len=1
+
+[Item]
+Label=Gestational age at 1st visit|عمر الجنين عند أول زيارة
+Name=H_RH2
+Start=433
+Len=1
+
+[Item]
+Label=Who Sought at ANC|من رأيت في مركز رعاية ما قبل الولادة
+Name=H_RH3
+Start=434
+Len=1
+
+[ValueSet]
+Label=Who Sought at ANC|من رأيت في مركز رعاية ما قبل الولادة
+Name=H_RH3_VS1
+Value=1;Doctor|طبيب
+Value=2;Nurse|ممرضة
+Value=3;Trained midwife|قابلة مدربة
+Value=4;TBA|قابلة تقليدية
+Value=5;Doctor Assistant|مساعد طبيب
+Value=6;Health visitor|زائرة صحية
+Value=7;Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=H_RH3_OTHER
+Start=435
+Len=40
+DataType=Alpha
+
+[Item]
+Label=FEFFOL Tablets Duration|طول الفترة التي أخذت بها حبوب فيفول
+Name=H_RH4A
+Start=475
+Len=1
+
+[Item]
+Label=Delivery of last Child|إنجاب آخر طفل
+Name=H_RH5
+Start=476
+Len=1
+
+[ValueSet]
+Label=Delivery of last Child|إنجاب آخر طفل
+Name=H_RH5_VS1
+Value=1;Doctor|طبيب
+Value=2;Nurse|ممرضة
+Value=3;Trained Midwife|قابلة مدربة
+Value=4;TBA|قابلة تقليدية
+Value=5;Doctor Assistant|مساعد طبيب
+Value=6;Health visitor|زائرة صحية
+Value=7;Other|آخرى
+
+[Item]
+Label=Other|آخرى
+Name=H_RH5_OTHER
+Start=477
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Vitamin A Taken|أخد فايتامين أ
+Name=H_RH6
+Start=517
+Len=1
+
+[ValueSet]
+Label=Vitamin A Taken|أخد فايتامين أ
+Name=H_RH6_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Last pregnancy Night vision Problems|مشاكل في النظر أثناء الليل خلال اخر فترة حمل
+Name=H_HR7
+Start=518
+Len=1
+
+[ValueSet]
+Label=Last pregnancy Night vision Problems|مشاكل في النظر أثناء الليل خلال اخر فترة حمل
+Name=H_HR7_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Health check or post-natal care after delivey|فحص أو رعاية بعد الولادة
+Name=H_PC1
+Start=519
+Len=1
+
+[ValueSet]
+Label=Health check or post-natal care after delivey|فحص أو رعاية بعد الولادة
+Name=H_PC1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Number of Tetanus Doses Before Last Pregnancy|عدد الجرعات أثناء الحمل
+Name=H_PC2
+Start=520
+Len=1
+
+[ValueSet]
+Label=Number of Tetanus Doses Before Last Pregnancy|عدد الجرعات أثناء الحمل
+Name=H_PC2_VS1
+Value=0:2
+
+[Item]
+Label=عدد الجرعات قبل الحمل|عدد الجرعات قبل الحمل
+Name=H_PC3
+Start=521
+Len=1
+
+[ValueSet]
+Label=عدد الجرعات قبل الحمل|عدد الجرعات قبل الحمل
+Name=H_PC3_VS1
+Value=0:5
+
+[Item]
+Label=Cooking Salt Sample|عينة من ملح الطعام
+Name=H_SI
+Start=522
+Len=1
+
+[ValueSet]
+Label=Cooking Salt Sample|عينة من ملح الطعام
+Name=H_SI_VS1
+Value=0;Not Iodised|غير مدعم باليود
+Value=1;Less than 15ppm|اقل من 15 جزء في المليون
+Value=2;More than 15ppm|اكثر من 15 جزء في المليون
+Value=3;No Salt|لا يوجد ملح
+Value=4;Refused to give Salt|رفض اعطاء عينه من الملح
+
+[Item]
+Label=Food|الطعام
+Name=N_WDD_A
+Start=523
+Len=17
+DataType=Alpha
+
+[ValueSet]
+Label=Food|الطعام
+Name=N_WDD_A_VS1
+Value='A                ';Cereals|أي من الحبوب الغذائية (ذرة/قمح/دخن ... إلخ )
+Value='B                ';Roots and tubers|الدرنيات أو النباتات الجزرية الاخري (بطاطس/بصل/كسافا/بامبي )
+Value='C                ';Carrot / Pumpkin|أي طعام يحتوي علي الجزر/القرع
+Value='D                ';Green leafy veg|أي من الخضروات الورقية الخضراء الداكنة او الداكنه الخضره (الجرجير/الخدرة/السلج ... الخ)
+Value='E                ';Any other veg|اي من الخضروات الاخري
+Value='F                ';Papaya / Mango|أي فواكه صفراء مثل بابايا, مانجو, برتقال ,ليمون, تفاح
+Value='G                ';Other fruits|أي فواكه اخرى
+Value='H                ';Meat or chicken|أي من اللحوم الحمراء أو البيضاء
+Value='I                ';Offal|لكبد أو الكلاوي أو القلوب او كمونية (أم فتفت)
+Value='J                ';Eggs|بيض
+Value='K                ';Fish|الاسماك طازجة أو جافة أو أطعمة بحرية
+Value='L                ';Nuts and seeds|البقوليات و المكسرات
+Value='M                ';Legumes and pulses|البذور
+Value='N                ';Dairy products|منتجات البان (جبنة/زبادي/و غيرها)
+Value='O                ';Oils and fats|أي أكل مضاف إليه الدهون مثل الزيت أو السمن أو القشدة
+Value='P                ';Sugar / honey / candy|السكر أو العسل أو الحلويات (كيك/باسطة و غيرها)
+Value='Q                ';Soft drinks / tea / coffee|مياه محلاة أو منكه (عصير/شاي /قهوة/شوربة/مياه غازية/ أي شراب مضااف إليه التوابل أو البهارات)
+
+[Item]
+Label=Cereals
+Name=N_WDD_A1
+Start=540
+Len=1
+
+[ValueSet]
+Label=Cereals
+Name=N_WDD_A1_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Roots and tubers
+Name=N_WDD_A2
+Start=541
+Len=1
+
+[ValueSet]
+Label=Roots and tubers
+Name=N_WDD_A2_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Carrot/Pumpkin
+Name=N_WDD_A3
+Start=542
+Len=1
+
+[ValueSet]
+Label=Carrot/Pumpkin
+Name=N_WDD_A3_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Green leafy vegetable
+Name=N_WDD_A4
+Start=543
+Len=1
+
+[ValueSet]
+Label=Green leafy vegetable
+Name=N_WDD_A4_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other Vegetables
+Name=N_WDD_A5
+Start=544
+Len=1
+
+[ValueSet]
+Label=Other Vegetables
+Name=N_WDD_A5_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Papaya/Mango
+Name=N_WDD_A6
+Start=545
+Len=1
+
+[ValueSet]
+Label=Papaya/Mango
+Name=N_WDD_A6_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other fruits
+Name=N_WDD_A7
+Start=546
+Len=1
+
+[ValueSet]
+Label=Other fruits
+Name=N_WDD_A7_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Meat or chicken
+Name=N_WDD_A8
+Start=547
+Len=1
+
+[ValueSet]
+Label=Meat or chicken
+Name=N_WDD_A8_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Offal
+Name=N_WDD_A9
+Start=548
+Len=1
+
+[ValueSet]
+Label=Offal
+Name=N_WDD_A9_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Eggs
+Name=N_WDD_A10
+Start=549
+Len=1
+
+[ValueSet]
+Label=Eggs
+Name=N_WDD_A10_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fish
+Name=N_WDD_A11
+Start=550
+Len=1
+
+[ValueSet]
+Label=Fish
+Name=N_WDD_A11_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Legumes and pulses
+Name=N_WDD_A12
+Start=551
+Len=1
+
+[ValueSet]
+Label=Legumes and pulses
+Name=N_WDD_A12_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Nuts and seeds
+Name=N_WDD_A13
+Start=552
+Len=1
+
+[ValueSet]
+Label=Nuts and seeds
+Name=N_WDD_A13_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Dairy Products
+Name=N_WDD_A14
+Start=553
+Len=1
+
+[ValueSet]
+Label=Dairy Products
+Name=N_WDD_A14_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Oils and fats
+Name=N_WDD_A15
+Start=554
+Len=1
+
+[ValueSet]
+Label=Oils and fats
+Name=N_WDD_A15_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Sugar/Honey/Candy
+Name=N_WDD_A16
+Start=555
+Len=1
+
+[ValueSet]
+Label=Sugar/Honey/Candy
+Name=N_WDD_A16_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Soft Drinks/Tea/Coffee
+Name=N_WDD_A17
+Start=556
+Len=1
+
+[ValueSet]
+Label=Soft Drinks/Tea/Coffee
+Name=N_WDD_A17_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Cereals Sources|مصادر الحبوب
+Name=N_WDD_B1
+Start=557
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Cereals Sources|مصادر الحبوب
+Name=N_WDD_B1_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Roots and tubers Sources|مصادر الدرنيات و النباتات الجزرية
+Name=N_WDD_B2
+Start=567
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Roots and tubers Sources|مصادر الدرنيات و النباتات الجزرية
+Name=N_WDD_B2_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Carrot/Pumpkin Sources|مصادر القرع/الجزر
+Name=N_WDD_B3
+Start=577
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Carrot/Pumpkin Sources|مصادر القرع/الجزر
+Name=N_WDD_B3_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Green leafy veg Sources|مصادر الخضروات الورقية
+Name=N_WDD_B4
+Start=587
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Green leafy veg Sources|مصادر الخضروات الورقية
+Name=N_WDD_B4_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Any other veg Sources|مصادر بقية الخضروات
+Name=N_WDD_B5
+Start=597
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Any other veg Sources|مصادر بقية الخضروات
+Name=N_WDD_B5_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Papaya/Mango Sources|مصادر الفواكه الصفراء
+Name=N_WDD_B6
+Start=607
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Papaya/Mango Sources|مصادر الفواكه الصفراء
+Name=N_WDD_B6_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Other fruits Sources|مصادر بقية الفواكه
+Name=N_WDD_B7
+Start=617
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Other fruits Sources|مصادر بقية الفواكه
+Name=N_WDD_B7_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Meat or chicken Sources|مصادر اللحوم  الحمراء و البيضاء
+Name=N_WDD_B8
+Start=627
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Meat or chicken Sources|مصادر اللحوم  الحمراء و البيضاء
+Name=N_WDD_B8_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Offal Sources|مصادر الكبد و الكلاوي و القلوب و الكمونية (أم فتفت)
+Name=N_WDD_B9
+Start=637
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Offal Sources|مصادر الكبد و الكلاوي و القلوب و الكمونية (أم فتفت)
+Name=N_WDD_B9_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Eggs Sources|مصادر البيض
+Name=N_WDD_B10
+Start=647
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Eggs Sources|مصادر البيض
+Name=N_WDD_B10_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Fish Sources|مصادر السمك
+Name=N_WDD_B11
+Start=657
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Fish Sources|مصادر السمك
+Name=N_WDD_B11_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Nuts and seeds Sources|مصادر البقوليات و المكسرات
+Name=N_WDD_B12
+Start=667
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Nuts and seeds Sources|مصادر البقوليات و المكسرات
+Name=N_WDD_B12_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Legumes and pulses Sources|مصادر البذور
+Name=N_WDD_B13
+Start=677
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Legumes and pulses Sources|مصادر البذور
+Name=N_WDD_B13_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Dairy products Sources|مصادر منتجات الألبان
+Name=N_WDD_B14
+Start=687
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Dairy products Sources|مصادر منتجات الألبان
+Name=N_WDD_B14_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Oils and fats Sources|مصادر الدهون و الزيوت
+Name=N_WDD_B15
+Start=697
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Oils and fats Sources|مصادر الدهون و الزيوت
+Name=N_WDD_B15_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Sugar/honey/candy Sources|مصادر السكر و العسل و الحلويات
+Name=N_WDD_B16
+Start=707
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Sugar/honey/candy Sources|مصادر السكر و العسل و الحلويات
+Name=N_WDD_B16_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Soft drinks/tea/coffee Sources|مصادر المشروبات و المياه المطعمة
+Name=N_WDD_B17
+Start=717
+Len=10
+DataType=Alpha
+
+[ValueSet]
+Label=Soft drinks/tea/coffee Sources|مصادر المشروبات و المياه المطعمة
+Name=N_WDD_B17_VS1
+Value='A         ';Own Production (animals and crops)|الانتاج الشخصي (الحيوانات و المحاصيل)
+Value='B         ';Fishing / Hunting|الصيد
+Value='C         ';Gathering|الجمع
+Value='D         ';Loan|القرض / الاستلاف
+Value='E         ';Market (Cash)|السوق (نقدا)
+Value='F         ';Market (Credit)|السوق (دين)
+Value='G         ';Beg for Food|تسول الغذاء
+Value='H         ';Exchange labor/items for food|تبادل المواد للأغذية أو العمل مقابل غذاء
+Value='I         ';Gift (Food) from family/friends|هدية (غذاء) من العائلة/الأصدقاء
+Value='J         ';Food Aid (NGOs, WFP)|(المنظمات غير الحكومية , WFP) المعونات الغذائية
+
+[Item]
+Label=Marriage|متزوجة
+Name=CC1
+Start=727
+Len=1
+
+[ValueSet]
+Label=Marriage|متزوجة
+Name=CC1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+
+[Item]
+Label=Social Status|الحالة الاجتماعية
+Name=CC_SS
+Start=728
+Len=1
+
+[ValueSet]
+Label=Social Status|الحالة الاجتماعية
+Name=CC_SS_VS1
+Value=1;عزباء|لم يسبق لها الزواج
+Value=2;Divorced|مطلقة
+Value=3;Widow|أرملة
+
+[Item]
+Label=1st Marriage age|عمر حين الزواج الأول
+Name=CC2
+Start=729
+Len=2
+
+[ValueSet]
+Label=1st Marriage age|عمر حين الزواج الأول
+Name=CC2_VS1
+Value=8:50
+
+[Item]
+Label=1st Pregnancy Age|العمر عند الحمل الأول
+Name=CC3
+Start=731
+Len=2
+
+[ValueSet]
+Label=1st Pregnancy Age|العمر عند الحمل الأول
+Name=CC3_VS1
+Value=10:50
+
+[Item]
+Label=Circumcised|ختان
+Name=FGM
+Start=733
+Len=1
+
+[ValueSet]
+Label=Circumcised|ختان
+Name=FGM_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=7;Refuse|رفض
+
+[Record]
+Label=PC (Circumcised)
+Name=CIRCUMCISED
+RecordTypeValue='6'
+MaxRecords=5
+RecordLen=90
+
+[Item]
+Label=Name|الاسم
+Name=FGM_N
+Start=70
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Circumcised|الختان
+Name=CIRCUMCISEE
+Start=90
+Len=1
+
+[ValueSet]
+Label=Circumcised|الختان
+Name=CIRCUMCISEE_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=7;Refuse|رفض
+
+[Record]
+Label=Pregnant Women
+Name=PREGNANT_WOMEN
+RecordTypeValue='7'
+MaxRecords=4
+RecordLen=103
+
+[Item]
+Label=الاسم
+Name=PW1
+Start=70
+Len=30
+DataType=Alpha
+
+[Item]
+Label=الحمل|الحمل
+Name=PW5
+Start=100
+Len=1
+
+[ValueSet]
+Label=الحمل|الحمل
+Name=PW5_VS1
+Value=1;نعم|حامل
+Value=2;لا|غير حامل
+Value=0;غير متزوجة|غير متزوجة
+
+[Item]
+Label=قياس المواك
+Name=PW6
+Start=101
+Len=3
+
+[ValueSet]
+Label=قياس المواك
+Name=PW6_VS1
+Value=160:480
+Value=998;رفض|رفض
+Value=0;لا يوجد عينة|لا يوجد عينة
+Value=997;مفقود|مفقود
+
+[Record]
+Label=Child
+Name=CHILD
+RecordTypeValue='8'
+MaxRecords=5
+RecordLen=215
+
+[Item]
+Label=Child ID|رقم الطفل
+Name=CH_ID
+Start=70
+Len=1
+
+[Item]
+Label=Child Name|اسم الطفل
+Name=CH_N
+Start=71
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Child Age|عمر الطفل
+Name=CH_AGE
+Start=91
+Len=2
+
+[ValueSet]
+Label=Child Age|عمر الطفل
+Name=CH_AGE_VS1
+Value=0:59
+
+[Item]
+Label=Sex|نوع
+Name=CH_SEX
+Start=93
+Len=1
+
+[ValueSet]
+Label=Sex|نوع
+Name=CH_SEX_VS1
+Value=1;Male|ذكر
+Value=2;Female|أنثى
+
+[Item]
+Label=Health Insurance|التأمين الصحي
+Name=CH_INS
+Start=94
+Len=1
+
+[ValueSet]
+Label=Health Insurance|التأمين الصحي
+Name=CH_INS_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Child MUAC|قياس مواك الطفل
+Name=CH_ANT1
+Start=95
+Len=3
+
+[ValueSet]
+Label=Child MUAC|قياس مواك الطفل
+Name=CH_ANT1_VS1
+Value=60:240
+Value=998;رفض|رفض
+Value=997;غير موجود|غير موجود
+
+[Item]
+Label=Muac Measured|هل تم قيس المواك من قبل
+Name=CH_ANT11
+Start=98
+Len=1
+
+[ValueSet]
+Label=Muac Measured|هل تم قيس المواك من قبل
+Name=CH_ANT11_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Muac Measurement date|تاريخ القياس
+Name=CH_ANT12
+Start=99
+Len=2
+
+[Item]
+Label=Weight|وزن
+Name=CH_ANT2
+Start=101
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Weight|وزن
+Name=CH_ANT2_VS1
+Value=1.0:30.0
+Value=98.0;رفض|رفض
+Value=97.0;غير موجود|غير موجود
+
+[Item]
+Label=Weight Measure Count|عدد مرات القياس
+Name=CH_ANT2_1
+Start=106
+Len=2
+
+[ValueSet]
+Label=Weight Measure Count|عدد مرات القياس
+Name=CH_ANT2_1_VS1
+Value=0:20
+
+[Item]
+Label=Height|طول
+Name=CH_ANT3
+Start=108
+Len=5
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Height|طول
+Name=CH_ANT3_VS1
+Value=30.0:120.0
+Value=998.0;مرفوض|رفض
+Value=997.0;غير موجود|غير موجود
+
+[Item]
+Label=Feed Method Concuil|استشارة في طرق اطعام الطفل
+Name=CH_ANT3_1
+Start=113
+Len=1
+
+[ValueSet]
+Label=Feed Method Concuil|استشارة في طرق اطعام الطفل
+Name=CH_ANT3_1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Bilateral EDEMA|الورم الغذائي
+Name=CH_ANT4
+Start=114
+Len=1
+
+[ValueSet]
+Label=Bilateral EDEMA|الورم الغذائي
+Name=CH_ANT4_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|رفض
+Value=7;غير موجود|غير موجود
+
+[Item]
+Label=Diseases|الأمراض
+Name=CH_DIS
+Start=115
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Diseases|الأمراض
+Name=CH_DIS_VS1
+Value='A   ';Diarrhoea|إسهال
+Value='B   ';Cough with difficult breathing|كحة أو صعوبة في التنفس
+Value='C   ';Fever|حمى
+Value='D   ';Not Sick|لم يمرض
+Value='E   ';Don't Know|لا أعرف
+
+[Item]
+Label=Diarrhoea Help|مساعدة للإسهال
+Name=CH_TS1
+Start=119
+Len=1
+
+[ValueSet]
+Label=Diarrhoea Help|مساعدة للإسهال
+Name=CH_TS1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;لا اعرف|لا اعرف
+
+[Item]
+Label=Diarrhoea Treatment|علاج الإسهال
+Name=CH_TS2
+Start=120
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=Diarrhoea Treatment|علاج الإسهال
+Name=CH_TS2_VS1
+Value='A   ';ORS Packets|ملح التروية
+Value='B   ';ORS Packet with Zinc Supplements|مكملات الزينك
+Value='C   ';Zinc Supplements|سوائل منزلية
+Value='D   ';Nothing|لا شيء
+Value='E   ';Other|آخرى
+Value='F   ';Don't Know|لا أعرف
+
+[Item]
+Label=اخرى|اخرى
+Name=CH_TS2_OTHER
+Start=124
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Cough with difficult breathing Help|مساعدة للكحة أو الصعوبة في التنفس
+Name=CH_TS3
+Start=164
+Len=1
+
+[ValueSet]
+Label=Cough with difficult breathing Help|مساعدة للكحة أو الصعوبة في التنفس
+Name=CH_TS3_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Cough with difficult breathing Treatment|علاج الكحة أو الصعوبة في التنفس
+Name=CH_TS4
+Start=165
+Len=1
+
+[ValueSet]
+Label=Cough with difficult breathing Treatment|علاج الكحة أو الصعوبة في التنفس
+Name=CH_TS4_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Sleep under LLITN|النوم تحت الناموسية
+Name=CH_ITN
+Start=166
+Len=1
+
+[ValueSet]
+Label=Sleep under LLITN|النوم تحت الناموسية
+Name=CH_ITN_VS1
+Value=1;Yes| نعم مشبعه
+Value=2;No|لا
+Value=3;Lesser Protective Type|نعم غير مشبعه
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=BCG|السل
+Name=CH_IMM1
+Start=167
+Len=1
+
+[ValueSet]
+Label=BCG|السل
+Name=CH_IMM1_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Penta 1|الخماسي الجرعة 1
+Name=CH_IMM2
+Start=168
+Len=1
+
+[ValueSet]
+Label=Penta 1|الخماسي الجرعة 1
+Name=CH_IMM2_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Penta 2|الخماسي الجرعة 2
+Name=CH_IMM3
+Start=169
+Len=1
+
+[ValueSet]
+Label=Penta 2|الخماسي الجرعة 2
+Name=CH_IMM3_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Penta 3|الخماسي الجرعة 3
+Name=CH_IMM4
+Start=170
+Len=1
+
+[ValueSet]
+Label=Penta 3|الخماسي الجرعة 3
+Name=CH_IMM4_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=OPV1|الشلل الجرعة 1
+Name=CH_IMM5
+Start=171
+Len=1
+
+[ValueSet]
+Label=OPV1|الشلل الجرعة 1
+Name=CH_IMM5_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=OPV2|الشلل الجرعة 2
+Name=CH_IMM6
+Start=172
+Len=1
+
+[ValueSet]
+Label=OPV2|الشلل الجرعة 2
+Name=CH_IMM6_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=OPV3|الشلل الجرعة 3
+Name=CH_IMM7
+Start=173
+Len=1
+
+[ValueSet]
+Label=OPV3|الشلل الجرعة 3
+Name=CH_IMM7_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Measles 1|الحصبة الجرعة 1
+Name=CH_IMM8
+Start=174
+Len=1
+
+[ValueSet]
+Label=Measles 1|الحصبة الجرعة 1
+Name=CH_IMM8_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Measles 2|الحصبة الجرعة 2
+Name=CH_IMM9
+Start=175
+Len=1
+
+[ValueSet]
+Label=Measles 2|الحصبة الجرعة 2
+Name=CH_IMM9_VS1
+Value=1;Yes with Card|نعم بكرت
+Value=2;Yes without Card|نعم بدون كرت
+Value=3;No|لا
+Value=8;Don't Know|لا أعرف
+Value=9;Not Applicable|لا ينطبق
+
+[Item]
+Label=Vitamin A|فيتامين أ
+Name=CH_VITA
+Start=176
+Len=1
+
+[ValueSet]
+Label=Vitamin A|فيتامين أ
+Name=CH_VITA_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Breast feeding|الرضاعة الطبيعية
+Name=CH_BF1
+Start=177
+Len=1
+
+[ValueSet]
+Label=Breast feeding|الرضاعة الطبيعية
+Name=CH_BF1_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=1st breast feed|أول رضاعة طبيعية
+Name=CH_BF2
+Start=178
+Len=1
+
+[ValueSet]
+Label=1st breast feed|أول رضاعة طبيعية
+Name=CH_BF2_VS1
+Value=1;Less than 1 Hour|أقل من ساعة واحدة
+Value=2;More than 1 Hour|أكثر من ساعة واحدة
+Value=3;Never BF|لم يرضع رضاعة طبيعية
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Breast feed in the last day|رضاعة خلال البارحة
+Name=CH_BF2_2
+Start=179
+Len=1
+
+[ValueSet]
+Label=Breast feed in the last day|رضاعة خلال البارحة
+Name=CH_BF2_2_VS1
+Value=1;Yes|نعم
+Value=2;No|لا
+Value=8;Don't Know|لا أعرف
+
+[Item]
+Label=Any Drink other than breast milk|أي شراب غير الرضاعة الطبيعية
+Name=CH_BF3
+Start=180
+Len=1
+
+[ValueSet]
+Label=Any Drink other than breast milk|أي شراب غير الرضاعة الطبيعية
+Name=CH_BF3_VS1
+Value=1;Yes only Water|نعم مياه فقط
+Value=2;Yes food and/or other drink|نعم تناول أطعمة و مشروبات آخرى
+Value=3;No|لا
+
+[Item]
+Label=Solid or semi-solid Food|طعام صلب أو شبه صلب
+Name=CH_MF
+Start=181
+Len=1
+
+[Item]
+Label=Food|الطعام
+Name=CH_DD
+Start=182
+Len=17
+DataType=Alpha
+
+[ValueSet]
+Label=Food|الطعام
+Name=CH_DD_VS1
+Value='A                ';Cereals|أي من الحبوب الغذائية (ذرة/قمح/دخن ... إلخ )
+Value='B                ';Roots and tubers|الدرنيات أو النباتات الجزرية الاخري (بطاطس/بصل/كسافا/بامبي )
+Value='C                ';Carrot / Pumpkin|أي طعام يحتوي علي الجزر/القرع
+Value='D                ';Green leafy veg|أي من الخضروات الورقية الخضراء الداكنة او الداكنه الخضره (الجرجير/الخدرة/السلج ... الخ)
+Value='E                ';Any other veg|اي من الخضروات الاخري
+Value='F                ';Papaya / Mango|أي فواكه صفراء مثل بابايا, مانجو, برتقال ,ليمون, تفاح
+Value='G                ';Other fruits|أي فواكه اخرى
+Value='H                ';Meat or chicken|أي من اللحوم الحمراء أو البيضاء
+Value='I                ';Offal|لكبد أو الكلاوي أو القلوب او كمونية (أم فتفت)
+Value='J                ';Eggs|بيض
+Value='K                ';Fish|الاسماك طازجة أو جافة أو أطعمة بحرية
+Value='L                ';Nuts and seeds|البقوليات و المكسرات
+Value='M                ';Legumes and pulses|البذور
+Value='N                ';Dairy products|منتجات البان (جبنة/زبادي/و غيرها)
+Value='O                ';Oils and fats|أي أكل مضاف إليه الدهون مثل الزيت أو السمن أو القشدة
+Value='P                ';Sugar / honey / candy|السكر أو العسل أو الحلويات (كيك/باسطة و غيرها)
+Value='Q                ';Soft drinks / tea / coffee|مياه محلاة أو منكه (عصير/شاي /قهوة/شوربة/مياه غازية/ أي شراب مضااف إليه التوابل أو البهارات)
+
+[Item]
+Label=Cereals
+Name=CH_DD1
+Start=199
+Len=1
+
+[ValueSet]
+Label=Cereals
+Name=CH_DD1_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Roots and tubers
+Name=CH_DD2
+Start=200
+Len=1
+
+[ValueSet]
+Label=Roots and tubers
+Name=CH_DD2_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Carrot/Pumpkin
+Name=CH_DD3
+Start=201
+Len=1
+
+[ValueSet]
+Label=Carrot/Pumpkin
+Name=CH_DD3_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Green leafy vegetable
+Name=CH_DD4
+Start=202
+Len=1
+
+[ValueSet]
+Label=Green leafy vegetable
+Name=CH_DD4_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other Vegetables
+Name=CH_DD5
+Start=203
+Len=1
+
+[ValueSet]
+Label=Other Vegetables
+Name=CH_DD5_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Papaya/Mango
+Name=CH_DD6
+Start=204
+Len=1
+
+[ValueSet]
+Label=Papaya/Mango
+Name=CH_DD6_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other fruits
+Name=CH_DD7
+Start=205
+Len=1
+
+[ValueSet]
+Label=Other fruits
+Name=CH_DD7_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Meat or chicken
+Name=CH_DD8
+Start=206
+Len=1
+
+[ValueSet]
+Label=Meat or chicken
+Name=CH_DD8_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Offal
+Name=CH_DD9
+Start=207
+Len=1
+
+[ValueSet]
+Label=Offal
+Name=CH_DD9_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Eggs
+Name=CH_DD10
+Start=208
+Len=1
+
+[ValueSet]
+Label=Eggs
+Name=CH_DD10_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fish
+Name=CH_DD11
+Start=209
+Len=1
+
+[ValueSet]
+Label=Fish
+Name=CH_DD11_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Legumes and pulses
+Name=CH_DD12
+Start=210
+Len=1
+
+[ValueSet]
+Label=Legumes and pulses
+Name=CH_DD12_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Nuts and seeds
+Name=CH_DD13
+Start=211
+Len=1
+
+[ValueSet]
+Label=Nuts and seeds
+Name=CH_DD13_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Dairy Products
+Name=CH_DD14
+Start=212
+Len=1
+
+[ValueSet]
+Label=Dairy Products
+Name=CH_DD14_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Oils and fats
+Name=CH_DD15
+Start=213
+Len=1
+
+[ValueSet]
+Label=Oils and fats
+Name=CH_DD15_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Sugar/Honey/Candy
+Name=CH_DD16
+Start=214
+Len=1
+
+[ValueSet]
+Label=Sugar/Honey/Candy
+Name=CH_DD16_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Soft Drinks/Tea/Coffee
+Name=CH_DD17
+Start=215
+Len=1
+
+[ValueSet]
+Label=Soft Drinks/Tea/Coffee
+Name=CH_DD17_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Child Measurement
+Name=CHILD_MEASUREMENT
+RecordTypeValue='9'
+MaxRecords=5
+RecordLen=108
+
+[Item]
+Label=Child's Name|اسم الطفل
+Name=CH_ANT
+Start=70
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Child HB|هموقلبين الطفل
+Name=CH_HB
+Start=90
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=Child HB|هموقلبين الطفل
+Name=CH_HB_VS1
+Value=2.0:18.0
+Value=0.0;No Sample|لا يوجد عينة
+Value=98.0;Refuse|رفض
+Value=97.0;Missing|غير موجود
+
+[Item]
+Label=Barcode|الباركود
+Name=CH_BC
+Start=94
+Len=15
+DataType=Alpha
+
+[Record]
+Label=PC's Measurement
+Name=MEASUREMENT
+RecordTypeValue='A'
+MaxRecords=4
+RecordLen=108
+
+[Item]
+Label=Name
+Name=PC_M_N
+Start=70
+Len=20
+DataType=Alpha
+
+[Item]
+Label=PC's HB|هموقلبين الأم
+Name=HN4
+Start=90
+Len=4
+Decimal=1
+DecimalChar=Yes
+
+[ValueSet]
+Label=هموقلبين الأم|هموقلبين الأم
+Name=HN4_VS1
+Value=2.0:18.0
+Value=0.0;No Sample|لا يوجد عينة
+Value=98.0;Refuse|رفض
+Value=97.0;Missing|غير موجودة
+
+[Item]
+Label=PC's Barcode|الباركود
+Name=PC_BC
+Start=94
+Len=15
+DataType=Alpha
